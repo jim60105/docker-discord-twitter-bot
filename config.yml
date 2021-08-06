@@ -1,0 +1,26 @@
+Twitter:
+  access_token: XXX-XXX
+  access_token_secret: XXX
+  consumer_key: XXX
+  consumer_secret: XXX
+
+Discord:
+  - IncludeReplyToUser: false
+    IncludeRetweet: false
+    IncludeUserReply: true
+    custom_message: 'A new tweet!'
+    keyword_sets:
+    - - 'League'    # tweet will be posted if tweet contains all 3 words {League of Legends}, no particular order.
+      - 'of'
+      - 'Legends'
+    - - 'Dota 2'    # tweet will be posted if tweet contains 'Dota 2' in this specific order
+    - - 'MOBA'      # tweet will be posted if it contains 'MOBA'
+    twitter_ids:
+    - '123'         # define as many as you want with a dash {-} at the beginning
+    - '456'
+    twitter_handles:
+    - 'discordapp'
+    twitter_lists:
+    - 'https://twitter.com/rokxx/lists/dota-2'
+    webhook_urls:
+    - 'https://discordapp.com/api/webhooks/123456/XXXX-XXXX'
