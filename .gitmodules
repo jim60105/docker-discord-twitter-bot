@@ -1,0 +1,3 @@
+[submodule "discord-twitter-bot"]
+	path = discord-twitter-bot
+	url = https://github.com/NNTin/discord-twitter-bot/
