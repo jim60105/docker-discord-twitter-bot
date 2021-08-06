@@ -5,4 +5,4 @@ services:
     image: nntin/discord-twitter-bot
     restart: unless-stopped
     volumes:
-      - config.yml:/app/bot/config.yml:ro
+      - ./config.yml:/app/bot/config.yml:ro
