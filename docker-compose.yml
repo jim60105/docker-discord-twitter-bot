@@ -2,7 +2,7 @@ version: '3.7'
 
 services:
   bot:
-    image: nntin/discord-twitter-bot
+    image: ghcr.io/jim60105/discord-twitter-bot
     restart: unless-stopped
     volumes:
       - ./config.yml:/app/bot/config.yml:ro
